@@ -1,3 +1,30 @@
-.App {
-  text-align: center;
+/* CUSTOM PROPERTIES */
+
+:root {
+  /* LAYOUTS */
+  --desktop-layout: 981px;
+  --mobile-layout: 375px;
+
+  /* FONTS */
+  --font-family-attribution: 'Montserrat', sans-serif;
+  --font-family-content: 'Raleway', sans-serif;
+
+  /* COLOR PALETTE */
+  --dark-blue-xiketic: #100E1D;
+  --dark-blue-darker-cadet: #110E3C;
+  --blue-space-cadet: #1E213A;
+  --blue-medium-dark: #585676;
+  --blue-bright: #3C47E9;
+  --greyish-dark: #6E707A;
+  --greyish-medium-dark: #88869D;
+  --greyish-medium-light: #A09FB1;
+  --greyish-lighter: #E7E7EB;
+  --white: #FFFFFF;
+  --yellow-corn: #FFEC65;
+
+  /* SPACING METHODS*/
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
 }
