@@ -5,7 +5,7 @@ import TodayWeatherBroadcast from './components/weather-broadcast/today-weather-
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <WeatherBroadcast />
       <FiveDaysWeatherBroadcast />
       <TodayWeatherBroadcast />

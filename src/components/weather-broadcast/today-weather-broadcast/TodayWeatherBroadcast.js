@@ -1,7 +1,9 @@
+import './TodayWeatherBroadcast.css'
+
 const TodayWeatherBroadcast = () => {
     return ( 
         <>
-            <span>
+            <span className='today-weather-broadcast'>
                 TodayWeatherBroadcast Component
             </span>
         </>

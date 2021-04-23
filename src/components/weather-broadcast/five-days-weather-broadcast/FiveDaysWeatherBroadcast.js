@@ -1,8 +1,9 @@
+import './FiveDaysWeatherBroadcast.css';
 
 const FiveDaysWeatherBroadcast = () => {
     return ( 
         <>
-            <span>FiveDaysWeatherBroadcast Component</span>
+            <span className='five-days-weather-broadcast'>FiveDaysWeatherBroadcast Component</span>
         </>
      );
 }
