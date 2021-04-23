@@ -2,11 +2,11 @@ import './TodayWeatherBroadcast.css'
 
 const TodayWeatherBroadcast = () => {
     return ( 
-        <>
-            <span className='today-weather-broadcast'>
+        <div>
+            <h3 className='today-weather-broadcast'>
                 TodayWeatherBroadcast Component
-            </span>
-        </>
+            </h3>
+        </div>
      );
 }
  

@@ -3,7 +3,7 @@ import './CircleButton.css'
 const CircleButton = () => {
     return (
         <div className='circle-button'>
-            <span class="material-icons">
+            <span className="material-icons">
                 my_location
             </span>
         </div>

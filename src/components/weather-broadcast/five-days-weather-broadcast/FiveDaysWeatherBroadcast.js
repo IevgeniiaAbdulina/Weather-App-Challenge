@@ -2,9 +2,9 @@ import './FiveDaysWeatherBroadcast.css';
 
 const FiveDaysWeatherBroadcast = () => {
     return ( 
-        <>
-            <span className='five-days-weather-broadcast'>FiveDaysWeatherBroadcast Component</span>
-        </>
+        <div>
+            <h3 className='five-days-weather-broadcast'>FiveDaysWeatherBroadcast Component</h3>
+        </div>
      );
 }
  
