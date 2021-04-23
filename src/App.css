@@ -15,7 +15,8 @@
   --blue-space-cadet: #1E213A;
   --blue-medium-dark: #585676;
   --blue-bright: #3C47E9;
-  --greyish-dark: #6E707A;
+  /* --greyish-dark: #6E707A; */
+  --greyish-dark: rgba(110, 112, 122, 0.3);
   --greyish-medium-dark: #88869D;
   --greyish-medium-light: #A09FB1;
   --greyish-lighter: #E7E7EB;

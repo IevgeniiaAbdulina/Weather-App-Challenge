@@ -1,10 +1,12 @@
 import './WeatherBroadcast.css';
+import CircleButton from '../circle-button/CircleButton';
 
 const WeatherBroadcast = () => {
     return ( 
-        <div className='box'>
-            <span>WeatherBroadcast Component</span>
-        </div>
+        <>
+            <CircleButton />
+            <span className='WeatherBroadcast'>WeatherBroadcast Component</span>
+        </>
      );
 }
  
