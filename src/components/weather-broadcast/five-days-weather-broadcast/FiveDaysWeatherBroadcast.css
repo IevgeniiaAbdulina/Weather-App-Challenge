@@ -1,3 +1,4 @@
 .five-days-weather-broadcast {
-    border: solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
 }

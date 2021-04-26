@@ -1,6 +1,55 @@
 
-.header {
+.WeatherBroadcast {
+    width: 100%;
+    height: 100vh;
+    padding: var(--spacing-md);
+    border: solid violet;
+}
+
+.WeatherBroadcast__header {
     display: flex;
     justify-content: space-between;
     margin-bottom: var(--spacing-lg);
+}
+
+.WeatherBroadcast__DataWrapper {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid gold;
+}
+
+.WeatherBroadcast__CurrentConditions {
+    border: solid royalblue;
+}
+
+.WeatherBroadcast__CurrentConditions__WeatherIcon {
+    border: solid fuchsia;
+}
+
+.WeatherBroadcast__CurrentConditions__TemperatureValue {
+    border: solid fuchsia;
+}
+
+.WeatherBroadcast__CurrentConditions__PhraseValue {
+    border: solid fuchsia;
+}
+
+.WeatherBroadcast__Data {
+    border: solid green;
+}
+
+.WeatherBroadcast__Data__day {
+    border: solid yellowgreen;
+}
+
+.WeatherBroadcast__Data__timestamp {
+    border: solid yellowgreen;
+}
+
+.WeatherBroadcast__Data__location {
+    border: solid yellowgreen;
 }

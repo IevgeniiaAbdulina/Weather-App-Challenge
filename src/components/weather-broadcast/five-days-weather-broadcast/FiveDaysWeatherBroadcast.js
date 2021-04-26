@@ -1,9 +1,15 @@
+import Paper from '../../paper/Paper';
 import './FiveDaysWeatherBroadcast.css';
 
 const FiveDaysWeatherBroadcast = () => {
     return ( 
-        <div>
-            <h3 className='five-days-weather-broadcast'>FiveDaysWeatherBroadcast Component</h3>
+        <div className='five-days-weather-broadcast'>
+            <Paper />
+            <Paper />
+            <Paper />
+            <Paper />
+            <Paper />
+
         </div>
      );
 }

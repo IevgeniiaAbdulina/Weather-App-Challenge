@@ -1,0 +1,7 @@
+.paper {
+    width: 120px;
+    height: 177px;
+    padding: var(--spacing-sm);
+    margin: var(--spacing-md);
+    background: var(--blue-space-cadet);
+}
