@@ -12,13 +12,21 @@ const WeatherBroadcast = () => {
             <div className='data-wrapper'>
                 <div className='current-conditions'>
                     <div className='weather-icon'>weather icon</div>
-                    <div className='temperature-value'>temperature</div>
-                    <div className='phrase-value'>broadcast</div>
+                    <div className='temperature-value'>15
+                        <span className='symbol'>°C</span>
+                    </div>
+                    <div className='phrase-value'>Shower</div>
                 </div>
                 <div className='data'>
-                    <div className='day'>Day</div>
-                    <div className='timestamp'>data</div>
-                    <div className='location'>Location</div>
+                    <div className='row-box'>
+                        <div className='day'>Today</div>
+                        <span className='divider'>.</span>
+                        <div className='timestamp'>Fri, 5 Jun</div>
+                    </div>
+                    <div className='location'>
+                        <span class="material-icons">place</span>
+                        Helsinki
+                    </div>
                 </div>
             </div>
         </div>
