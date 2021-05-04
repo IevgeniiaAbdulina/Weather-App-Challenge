@@ -1,18 +1,18 @@
 
-.WeatherBroadcast {
+.weather-broadcast {
     width: 100%;
     height: 100vh;
     padding: var(--spacing-md);
     border: solid violet;
 }
 
-.WeatherBroadcast__header {
+.header {
     display: flex;
     justify-content: space-between;
     margin-bottom: var(--spacing-lg);
 }
 
-.WeatherBroadcast__DataWrapper {
+.data-wrapper {
     width: 100%;
     height: 90%;
     display: flex;
@@ -22,34 +22,34 @@
     border: solid gold;
 }
 
-.WeatherBroadcast__CurrentConditions {
+.current-conditions {
     border: solid royalblue;
 }
 
-.WeatherBroadcast__CurrentConditions__WeatherIcon {
+.weather-icon {
     border: solid fuchsia;
 }
 
-.WeatherBroadcast__CurrentConditions__TemperatureValue {
+.temperature-value {
     border: solid fuchsia;
 }
 
-.WeatherBroadcast__CurrentConditions__PhraseValue {
+.phrase-value {
     border: solid fuchsia;
 }
 
-.WeatherBroadcast__Data {
+.data {
     border: solid green;
 }
 
-.WeatherBroadcast__Data__day {
+.day {
     border: solid yellowgreen;
 }
 
-.WeatherBroadcast__Data__timestamp {
+.timestamp {
     border: solid yellowgreen;
 }
 
-.WeatherBroadcast__Data__location {
+.location {
     border: solid yellowgreen;
 }

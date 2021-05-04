@@ -4,21 +4,21 @@ import SearchPlaces from './search-places/SearchPlaces';
 
 const WeatherBroadcast = () => {
     return ( 
-        <div className='WeatherBroadcast'>
-            <header className="WeatherBroadcast__header">
+        <div className='weather-broadcast'>
+            <header className="header">
                 <SearchPlaces />
                 <CircleButton />
             </header>
-            <div className='WeatherBroadcast__DataWrapper'>
-                <div className='WeatherBroadcast__CurrentConditions'>
-                    <div className='WeatherBroadcast__CurrentConditions__WeatherIcon'>weather icon</div>
-                    <div className='WeatherBroadcast__CurrentConditions__TemperatureValue'>temperature</div>
-                    <div className='WeatherBroadcast__CurrentConditions__PhraseValue'>broadcast</div>
+            <div className='data-wrapper'>
+                <div className='current-conditions'>
+                    <div className='weather-icon'>weather icon</div>
+                    <div className='temperature-value'>temperature</div>
+                    <div className='phrase-value'>broadcast</div>
                 </div>
-                <div className='WeatherBroadcast__Data'>
-                    <div className='WeatherBroadcast__Data__day'>Day</div>
-                    <div className='WeatherBroadcast__Data__timestamp'>data</div>
-                    <div className='WeatherBroadcast__Data__location'>Location</div>
+                <div className='data'>
+                    <div className='day'>Day</div>
+                    <div className='timestamp'>data</div>
+                    <div className='location'>Location</div>
                 </div>
             </div>
         </div>
