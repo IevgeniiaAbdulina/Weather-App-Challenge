@@ -1,7 +1,40 @@
 .paper {
     width: 120px;
     height: 177px;
-    padding: var(--spacing-sm);
+    padding: 18px;
     margin: var(--spacing-md);
     background: var(--blue-space-cadet);
+    color: var(--greyish-lighter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ic-weather {
+    width: 56px;
+    height: auto;
+    border: solid salmon;
+}
+
+.min-max-temperature {
+    display: flex;
+}
+
+.max-temperature, 
+.min-temperature {
+    margin: 0 var(--spacing-xs);
+}
+
+.min-temperature {
+    color: var(--greyish-medium-light);
+}
+
+.hidden {
+    visibility: hidden;
 }

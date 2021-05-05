@@ -1,4 +1,7 @@
 .five-days-weather-broadcast {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 52px;
+    background-color: var(--dark-blue-xiketic);
 }

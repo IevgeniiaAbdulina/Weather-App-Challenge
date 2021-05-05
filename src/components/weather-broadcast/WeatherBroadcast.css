@@ -19,12 +19,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: solid gold; */
 }
-
-/* .current-conditions {
-    border: solid royalblue;
-} */
 
 .weather-icon {
     width: 150px;
@@ -57,10 +52,6 @@
     text-align: center;
     margin-top: var(--spacing-lg);
 }
-/* 
-.data {
-    border: solid green;
-} */
 
 .row-box {
     display: flex;
