@@ -1,3 +1,69 @@
 .today-weather-broadcast {
-    border: solid skyblue;
+    padding: 52px var(--spacing-lg);
+    background-color: var(--dark-blue-xiketic);
+}
+
+.hightlights-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--greyish-lighter);
+}
+
+.hightlights-paper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--blue-space-cadet);
+    margin-top: 32px;
+    padding: var(--spacing-lg);
+    color: var(--greyish-lighter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.paper-value {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+}
+
+.paper-value span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.direction {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.navigation-icon {
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: var(--spacing-xs);
+}
+
+.navigation-icon span {
+    position: relative;
+    top: 1px;
+    transform: rotate(-150deg);
+}
+
+.material-icons.md-12 {
+    font-size: 12px;
 }
