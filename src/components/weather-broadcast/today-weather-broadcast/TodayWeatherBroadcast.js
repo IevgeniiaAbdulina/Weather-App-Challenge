@@ -5,6 +5,7 @@ const TodayWeatherBroadcast = () => {
         <div className='today-weather-broadcast'>
             <p className='hightlights-title'>Today's Hightlights</p>
 
+            {/* WIND STATUS */}
             <div className='hightlights-paper'>
                 <p className='paper-title'>Wind status</p>
                 <p className='paper-value'>
@@ -19,15 +20,27 @@ const TodayWeatherBroadcast = () => {
                 </p>
             </div>
 
+            {/* HUMIDITY */}
             <div className='hightlights-paper'>
                 <p className='paper-title'>Humidity</p>
                 <p className='paper-value'>
                     {84}
                     <span> %</span>
                 </p>
-                <p className='progress-bar'>0-100%</p>
+                <div className='progress-bar-wrapper'>
+                    <div className='scale'>
+                            <p>0</p>
+                            <p>50</p>
+                            <p>100</p>
+                        </div>
+                    <div className='progress-bar'>
+                        <span style={{ width: `${75}%`}}></span>
+                    </div>
+                    <div className='units'>%</div>
+                </div>
             </div>
 
+            {/* VISIBILITY */}
             <div className='hightlights-paper'>
                 <p className='paper-title'>Visibility</p>
                 <p className='paper-value'>
@@ -35,7 +48,8 @@ const TodayWeatherBroadcast = () => {
                     <span> miles</span>
                 </p>
             </div>
-
+            
+            {/* AIR PRESSURE */}
             <div className='hightlights-paper'>
                 <p className='paper-title'>Air pressure</p>
                 <p className='paper-value'>
