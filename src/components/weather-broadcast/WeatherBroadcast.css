@@ -7,7 +7,7 @@
     background-color: var(--blue-space-cadet);
 }
 
-.weather-broadcast::after {
+.weather-broadcast::before {
     content: "";
     background: url(../../img/Cloud-background.png) no-repeat 50% 10%  / auto auto;
     opacity: 0.1;
