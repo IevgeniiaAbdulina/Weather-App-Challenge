@@ -4,6 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--greyish-dark);
+    background-color: var(--blue-greyish-dark);
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle-button > span {
+    color: white;
 }
