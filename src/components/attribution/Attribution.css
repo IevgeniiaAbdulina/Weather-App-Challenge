@@ -1,3 +1,25 @@
 .attribution {
-    border: solid yellowgreen;
+    font-family: var(--font-family-montserrat);
+    width: 100%;
+    height: auto;
+    background-color: var(--dark-blue-xiketic);
+    padding: var(--spacing-lg);
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: var( --greyish-medium-light);
+}
+
+.attribution a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var( --greyish-medium-light);
+}
+
+.attribution a:hover {
+    color: var(--blue-bright);
 }
